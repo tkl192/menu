@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/CART"
+        android:title="Cart"
+        android:icon="@drawable/ic_shopping_cart_black"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/CALL"
+        android:title="Call"
+        android:icon="@drawable/ic_call_black"
+        app:showAsAction="never" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/CAMERA"
+            android:icon="@drawable/ic_camera_alt_black"
+            android:title="Camera"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/VIDEO"
+            android:title="Video"
+            android:icon="@drawable/ic_camera_alt_black"
+            app:showAsAction="never" />
+    </group>
+    <item
+        android:id="@+id/EMAIL"
+        android:title="Email"
+        android:icon="@drawable/ic_email_black"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ADD"
+        android:title="Add"
+        android:icon="@drawable/ic_add_circle_black"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/COPY"
+        android:title="Copy"
+        android:icon="@drawable/ic_copy_black"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/PASTE"
+        android:title="Paste"
+        android:icon="@drawable/ic_paste_black"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/HELP"
+        android:title="Help"
+        android:icon="@drawable/ic_help_black"
+        android:onClick="onHelpClick"
+        app:showAsAction="never" />
+</menu>
